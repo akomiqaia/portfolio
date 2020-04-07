@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   
@@ -6,4 +7,20 @@
 main{
   width: 90%;
   margin: 0 auto;
+}
+
+.social-icons {
+  position: relative;
+  top: 0.125em;
+  
+  /* Prevent the icon from shrinking inside a flex container. */
+  flex-shrink: 0;
+  fill: hsl(40, 65%, 35%);
+
+  /*
+   * If the icon is used on a link, which has a color transition,
+   * we can also use a transition on the fill value.
+  */
+ transition: fill .3s;
+
 }
