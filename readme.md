@@ -7,3 +7,5 @@
 
 - work on the icons
 - color pallet needed
+
+- take care of svg's and maybe make them separate components and make them accessable. 
